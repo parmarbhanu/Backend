@@ -1,10 +1,10 @@
 const express = require("express");              //add express 
 const app = express(); 
 const mongoose = require("mongoose");            //add mongoose
-const dotenv = require("dotenv");                // add dotenv
-const cookieParser = require("cookie-parser");   //add cookies parser
+// const dotenv = require("dotenv");                // add dotenv
+// const cookieParser = require("cookie-parser");   //add cookies parser
 const PORT = process.env.PORT || 5000;           //desfinr port
-const cors = require("cors");                    //add coros
+// const cors = require("cors");                    //add coros
 
 dotenv.config();
 app.use(express.json());
