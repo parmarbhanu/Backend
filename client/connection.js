@@ -17,6 +17,7 @@ const HouseRent = (props) => {
   useEffect(() => {
     callapi();
   }, []);
+  
 
 
   
